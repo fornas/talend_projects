@@ -212,7 +212,7 @@
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Cookbook: hand cranking a schema"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;128"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;255;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="185;227;253"/>
   </subjob>
 </talendfile:ProcessType>

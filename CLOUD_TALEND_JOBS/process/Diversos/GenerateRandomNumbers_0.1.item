@@ -104,13 +104,13 @@
     <elementParameter field="TEXT" name="NB_ROWS" value="10" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="random_value" id="0"/>
-      <elementValue elementRef="ARRAY" value="TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot; ,TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, &quot;2010-12-26&quot;) )" id="1"/>
+      <elementValue elementRef="ARRAY" value="Numeric.random(0 ,100 )" id="1"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRowGenerator_1">
       <column comment="" defaultValue="" key="false" length="-1" name="random_value" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getPartOfDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;partName&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;DAY_OF_WEEK\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.parseDate(\&quot;yyyy-MM-dd\&quot;, \&quot;2010-12-26\&quot;) &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
     </metadata>
   </node>
